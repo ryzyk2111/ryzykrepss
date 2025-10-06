@@ -476,5 +476,49 @@ export const products = [
     verified: true,
     productUrlCN: 'https://cnfans.com/product?platform=WEIDIAN&id=7491847318&ref=115813',
     productUrlKako: 'https://ikako.vip/5uhep'
+  },
+{
+    id: 43,
+    name: 'Lanvin Shoes 9 colorways [Premium Quality]',
+    price: '382.06 PLN',
+    category: 'Shoes',
+    image: 'https://si.geilicdn.com/pcitem901987433855-6a4700000199282884d90a23041a_1170_1149.jpg',
+    isBest: false,
+    verified: true,
+    productUrlCN: 'https://cnfans.com/product?platform=WEIDIAN&id=7549244580&ref=115813',
+    productUrlKako: 'https://ikako.vip/cf8pb'
+  },
+{
+    id: 44,
+    name: 'LOUIS VUITTON Trainer Shoes 10 colorways [Premium Quality]',
+    price: '165.8 PLN',
+    category: 'Shoes',
+    image: 'https://si.geilicdn.com/pcitem1984009210-50d70000019903f4538c0a231177_1080_1048.jpg',
+    isBest: false,
+    verified: true,
+    productUrlCN: 'https://cnfans.com/product?platform=WEIDIAN&id=7546133843&ref=115813',
+    productUrlKako: 'https://ikako.vip/ywxfy'
+  },
+{
+    id: 45,
+    name: 'Air Max Corteiz',
+    price: '120.89 PLN',
+    category: 'Shoes',
+    image: 'https://si.geilicdn.com/pcitem1743028401-3a130000019330171c080a20e2c5_800_800.jpg',
+    isBest: false,
+    verified: true,
+    productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7237972520&ref=115813',
+    productUrlKako: 'https://ikako.vip/kxxrz'
+  },
+{
+    id: 46,
+    name: 'CORTEIZ BOMB TEE',
+    price: '43.26 PLN',
+    category: 'Others',
+    image: 'https://i.imgur.com/lWtHnL7.png',
+    isBest: false,
+    verified: true,
+    productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7451395636&ref=115813',
+    productUrlKako: 'https://ikako.vip/waxk7'
   }
 ];
