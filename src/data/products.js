@@ -545,68 +545,68 @@ export const products = [
   },
 {
     id: 49,
-    name: 'Bape Tees',
-    price: '16.09 PLN',
-    category: 'Others',
-    image: 'https://img.alicdn.com/img/ibank/O1CN01WkfNEB1SnKQI0FS6L_!!2217633882291-0-cib.jpg',
-    isBest: true,
+    name: 'Purple Lobsters',
+    price: '278.92 PLN',
+    category: 'Shoes',
+    image: 'https://si.geilicdn.com/wdseller1749307159-1bcf0000018e8927dd4c0a21146b_1290_1290.jpg.webp?w=400&h=400',
+    isBest: false,
     verified: true,
-    productUrlCN: 'https://cnfans.com/product/?platform=ALI_1688&id=892929077699&ref=115813',
-    productUrlKako: 'https://ikako.vip/654tb'
+    productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7539545453&ref=115813',
+    productUrlKako: 'https://ikako.vip/8u3te'
   },
 {
     id: 50,
-    name: 'Bape Tees',
-    price: '16.09 PLN',
-    category: 'Others',
-    image: 'https://img.alicdn.com/img/ibank/O1CN01WkfNEB1SnKQI0FS6L_!!2217633882291-0-cib.jpg',
+    name: 'Nike dunk Strangelove',
+    price: '255.07 PLN',
+    category: 'Shoes',
+    image: 'https://si.geilicdn.com/pcitem1809160355-57850000018c173de2970a231447_1800_1200.jpg',
     isBest: true,
     verified: true,
-    productUrlCN: 'https://cnfans.com/product/?platform=ALI_1688&id=892929077699&ref=115813',
-    productUrlKako: 'https://ikako.vip/654tb'
+    productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7539583171&ref=115813',
+    productUrlKako: 'https://ikako.vip/4dp7s'
   },
 {
     id: 51,
-    name: 'Bape Tees',
-    price: '16.09 PLN',
-    category: 'Others',
-    image: 'https://img.alicdn.com/img/ibank/O1CN01WkfNEB1SnKQI0FS6L_!!2217633882291-0-cib.jpg',
+    name: 'Jordan 1 low Travis',
+    price: '245.09 PLN',
+    category: 'Shoes',
+    image: 'https://si.geilicdn.com/pcitem1810691551-295600000195d02fd12b0a2304aa_800_800.jpg',
     isBest: true,
     verified: true,
-    productUrlCN: 'https://cnfans.com/product/?platform=ALI_1688&id=892929077699&ref=115813',
-    productUrlKako: 'https://ikako.vip/654tb'
+    productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7541481088&ref=115813',
+    productUrlKako: 'https://ikako.vip/xe5qyp'
   },
 {
     id: 52,
-    name: 'Bape Tees',
-    price: '16.09 PLN',
-    category: 'Others',
-    image: 'https://img.alicdn.com/img/ibank/O1CN01WkfNEB1SnKQI0FS6L_!!2217633882291-0-cib.jpg',
+    name: 'Off-White Dunk Low (lot 1-50)',
+    price: '144.17 PLN',
+    category: 'Shoes',
+    image: 'https://si.geilicdn.com/pcitem1810692503-02510000018c817032320a23132e_1200_1200.jpg',
     isBest: true,
     verified: true,
-    productUrlCN: 'https://cnfans.com/product/?platform=ALI_1688&id=892929077699&ref=115813',
-    productUrlKako: 'https://ikako.vip/654tb'
+    productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7539603059&ref=115813',
+    productUrlKako: 'https://ikako.vip/h9xym'
   },
 {
     id: 53,
-    name: 'Bape Tees',
-    price: '16.09 PLN',
-    category: 'Others',
-    image: 'https://img.alicdn.com/img/ibank/O1CN01WkfNEB1SnKQI0FS6L_!!2217633882291-0-cib.jpg',
+    name: 'Yeezy 350',
+    price: '282.25 PLN',
+    category: 'Shoes',
+    image: 'https://i.imgur.com/xEJG0c0.png',
     isBest: true,
     verified: true,
-    productUrlCN: 'https://cnfans.com/product/?platform=ALI_1688&id=892929077699&ref=115813',
-    productUrlKako: 'https://ikako.vip/654tb'
+    productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7539579211&ref=115813',
+    productUrlKako: 'https://ikako.vip/hdpat'
   },
 {
     id: 54,
-    name: 'Bape Tees',
-    price: '16.09 PLN',
-    category: 'Others',
-    image: 'https://img.alicdn.com/img/ibank/O1CN01WkfNEB1SnKQI0FS6L_!!2217633882291-0-cib.jpg',
+    name: 'Air force 1 CPFM',
+    price: '155.26 PLN',
+    category: 'Shoes',
+    image: 'https://si.geilicdn.com/pcitem1839532311-65710000018faf26bac10a20e672_1080_1440.jpg',
     isBest: true,
     verified: true,
-    productUrlCN: 'https://cnfans.com/product/?platform=ALI_1688&id=892929077699&ref=115813',
-    productUrlKako: 'https://ikako.vip/654tb'
+    productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7541459146&ref=115813',
+    productUrlKako: 'https://ikako.vip/rja6j'
   }
 ];
