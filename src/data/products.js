@@ -614,7 +614,7 @@ export const products = [
     name: 'ChatGPT Glasses',
     price: '109.8 PLN',
     category: 'Electronics',
-    image: 'https://cbu01.alicdn.com/img/ibank/O1CN01U7ibeg2Cl0nNxH4TB_!!2838728513-0-cib.jpg_400x400q85.jpg_.webp',
+    image: 'https://cbu01.alicdn.com/img/ibank/O1CN01U7ibeg2Cl0nNxH4TB_!!2838728513-0-cib.jpg_400x400q85.jpg',
     isBest: false,
     verified: true,
     productUrlCN: 'https://cnfans.com/product?platform=ALI_1688&id=927907433826&ref=115813',
