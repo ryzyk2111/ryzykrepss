@@ -435,14 +435,14 @@ export const products = [
   },
 {
     id: 39,
-    name: 'Syna World Suit 8 colorways',
-    price: '71.01 PLN',
+    name: 'Syna World',
+    price: '177.44 PLN',
     category: 'Sets',
     image: 'https://si.geilicdn.com/open1704625661-1234478995-5a6300000197d50150890a22d249_640_640.jpg',
     isBest: false,
     verified: true,
-    productUrlCN: 'https://cnfans.com/product?platform=WEIDIAN&id=7523990203&ref=115813',
-    productUrlKako: 'https://ikako.vip/f9dnw'
+    productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7287375148&ref=115813',
+    productUrlKako: 'https://ikako.vip/f82zx'
   },
 {
     id: 40,
