@@ -608,5 +608,38 @@ export const products = [
     verified: true,
     productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7541459146&ref=115813',
     productUrlKako: 'https://ikako.vip/rja6j'
+  },
+{
+    id: 55,
+    name: 'ChatGPT Glasses',
+    price: '109.8 PLN',
+    category: 'Electronics',
+    image: 'https://cbu01.alicdn.com/img/ibank/O1CN01U7ibeg2Cl0nNxH4TB_!!2838728513-0-cib.jpg_400x400q85.jpg_.webp',
+    isBest: false,
+    verified: true,
+    productUrlCN: 'https://cnfans.com/product?platform=ALI_1688&id=927907433826&ref=115813',
+    productUrlKako: 'https://ikako.vip/9j4dm'
+  },
+{
+    id: 56,
+    name: 'LV Skate',
+    price: '266.16 PLN',
+    category: 'Shoes',
+    image: 'https://i.imgur.com/Ok0elJb.png',
+    isBest: false,
+    verified: true,
+    productUrlCN: 'https://cnfans.com/product?platform=WEIDIAN&id=7241272735&ref=115813',
+    productUrlKako: 'https://ikako.vip/4s2he'
+  },
+{
+    id: 57,
+    name: 'UGG Slippers',
+    price: '98.71 PLN',
+    category: 'Shoes',
+    image: 'https://si.geilicdn.com/pcitem1839532311-7c8c0000018f79fc7a170a207569_1170_1555.jpg',
+    isBest: false,
+    verified: true,
+    productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7541437390&ref=115813',
+    productUrlKako: 'https://ikako.vip/ffn86'
   }
 ];
