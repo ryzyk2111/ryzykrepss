@@ -537,7 +537,7 @@ export const products = [
     name: 'Nike dunk low Gray Fog',
     price: '102.59 PLN',
     category: 'Shoes',
-    image: 'https://lh7-rt.googleusercontent.com/u/0/sheets/APBGjhZpAImBhH5ZWPqNCtgRwDawVGdTvUYoHkdBhLHrabCfJJw3Uom8Bu2TMaBCZA3ToyBGWTgF4rO5PrkKIOGsnA4bGYrayazY1YTszdmr15FXTv4_FjH8856qXrQfNOHmoqTP9_gRDBsFOLiQpQDT7MUAiHJGdXi8rbBHUQtdi_RGdLCJk8sRFBHzOFUhC9KUyf1K9EK8y-M9uEiHaDMB5LcSbTQckL4-V_vhDVB-90_5DvQgFNLrPNVgGqeu4x5mL414gu8ijy4MlNKo3UnzQmPcKA1jUPzAzKbfcomv4lxmIlUdmSOlc4KNjCxh8uh_3gFZHZPlBN4CqurGP6ScvjRrrNPEFWTkpkQ2cg3AUJYz5MInQ50wlc9tMziRH6DkCy_v-S7J1TtlSGFSBQodC1GJy_DqbERMh9OdiZKUyiNmKM9xCTh1LAXwo2gu3gEDtwv8taPXIU_iWUrHak62YDaa-oCSuP-XLo5YcUtnTgEZ7wMl6ebC6nJ30JrRSS9CH5RrSmrywkgo1o8xkBEBjlwRNujgt_Ge-9mbb0bVmbHmmHDJ2B3qvYkGeLt9kaYhas7SyVYAE6CLKWpUsgicYjfL_Vy9zxxVP4WE193MvjbhXexWUh7aCz1wgUi0014E_ycIbeG0w2BQhNn_OQ2ZnoDRcTkdiihON0qyS8RukghT3QNdUnjbUnKGPlKAnYoTbNaZxvY3JgNa7761HF_2fJrXZQqgNkCl0eXdd6j_SNMxQDtHUtQp0Kd1vqT7UwF7F59_8Nce2AqTMh7ZwGtQz6LPYo8fgeiqxjGajdBrGx1G5v3jKOzrfAqWOxlnInWfE7JhgcvrQYrUiVZdyZfeXUwxO04mIoFeJp_c738A6TQNDfSrU6--572NyLB4EWxiugQPpSvgLo86puuXP4i28WRamOti5gp7Al12ZSjl4B9cfxVZdr8brNkzjF8ZC8YFuwhMQl9aI9A0J_zcL1FHFi2FHHhubFbIbhlYeME2hZABIw=w139-h76',
+    image: 'https://i.imgur.com/JF125GG.png',
     isBest: true,
     verified: true,
     productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7541429504&ref=115813',
