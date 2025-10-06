@@ -520,5 +520,16 @@ export const products = [
     verified: true,
     productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7451395636&ref=115813',
     productUrlKako: 'https://ikako.vip/waxk7'
+  },
+{
+    id: 47,
+    name: 'Bape Tees',
+    price: '16.09 PLN',
+    category: 'Others',
+    image: 'https://img.alicdn.com/img/ibank/O1CN01WkfNEB1SnKQI0FS6L_!!2217633882291-0-cib.jpg',
+    isBest: true,
+    verified: true,
+    productUrlCN: 'https://cnfans.com/product/?platform=ALI_1688&id=892929077699&ref=115813',
+    productUrlKako: 'https://ikako.vip/654tb'
   }
 ];
