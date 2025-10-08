@@ -458,7 +458,7 @@ export const products = [
 {
     id: 41,
     name: 'Sp5der Set 34 colorways',
-    price: '71.01 PLN',
+    price: '193.53 PLN',
     category: 'Sets',
     image: 'https://si.geilicdn.com/open1704625661-1234478995-181e00000197d4fcc9280aa0c791_800_800.jpg',
     isBest: false,
@@ -641,5 +641,38 @@ export const products = [
     verified: true,
     productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7541437390&ref=115813',
     productUrlKako: 'https://ikako.vip/ffn86'
+  },
+{
+    id: 58,
+    name: 'Ami Shorts',
+    price: '71.15 PLN',
+    category: 'Shorts',
+    image: 'https://si.geilicdn.com/open1802122381-1234478995-41730000019530cbd21c0a23b491_1080_1080.jpg',
+    isBest: false,
+    verified: true,
+    productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7401140756&ref=115813',
+    productUrlKako: 'https://ikako.vip/vp2d38'
+  },
+{
+    id: 59,
+    name: 'Ami Shorts',
+    price: '54.47 PLN',
+    category: 'Shorts',
+    image: 'https://si.geilicdn.com/open1802122381-1234478995-41730000019530cbd21c0a23b491_1080_1080.jpg',
+    isBest: false,
+    verified: true,
+    productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7407292294&ref=115813',
+    productUrlKako: 'https://ikako.vip/rmj37'
+  },
+{
+    id: 60,
+    name: 'Denim Tears Shorts',
+    price: '54.47 PLN',
+    category: 'Shorts',
+    image: 'https://si.geilicdn.com/pcitem1922279877-6f5500000196582ee12f0a239846-unadjust_800_800.png.w=400&h=400',
+    isBest: false,
+    verified: true,
+    productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7401140756&ref=115813',
+    productUrlKako: 'https://ikako.vip/vp2d38'
   }
 ];
