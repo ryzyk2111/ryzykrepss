@@ -674,5 +674,71 @@ export const products = [
     verified: true,
     productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7238366164&ref=115813',
     productUrlKako: 'https://ikako.vip/5takv'
+  },
+{
+    id: 61,
+    name: 'Crocs',
+    price: '61.14 PLN',
+    category: 'Shoes',
+    image: 'https://si.geilicdn.com/pcitem1898530535-2ea000000192c03cdd9a0a2396f4_764_764.jpg',
+    isBest: false,
+    verified: true,
+    productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7297545631&ref=115813',
+    productUrlKako: 'https://ikako.vip/3nhax'
+  },
+{
+    id: 62,
+    name: 'Air Max 97 x Off-White',
+    price: '122.28 PLN',
+    category: 'Shoes',
+    image: 'https://si.geilicdn.com/open1660815673-1234478995-4eb700000195d85cce540a8133b0_600_600.jpg',
+    isBest: false,
+    verified: true,
+    productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7436015958&ref=115813',
+    productUrlKako: 'https://ikako.vip/fbh4v'
+  },
+{
+    id: 63,
+    name: 'Nike Dunk Travis Scott',
+    price: '177.86 PLN',
+    category: 'Shoes',
+    image: 'https://si.geilicdn.com/open1660815673-1234478995-653900000195d42c24330a231226_708_872.jpg',
+    isBest: false,
+    verified: true,
+    productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7433601091&ref=115813',
+    productUrlKako: 'https://ikako.vip/sygdd'
+  },
+{
+    id: 64,
+    name: 'Jordan 1 Patent Bred',
+    price: '138.95 PLN',
+    category: 'Shoes',
+    image: 'https://si.geilicdn.com/open1660815673-1234478995-0e0900000195d43ee4170a23b4de_1080_1080.jpg.webp?w=400&h=400',
+    isBest: false,
+    verified: true,
+    productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7433591265&ref=115813',
+    productUrlKako: 'https://ikako.vip/hdq7e'
+  },
+{
+    id: 65,
+    name: 'Football sets',
+    price: '40.02 PLN',
+    category: 'Sets',
+    image: 'https://cbu01.alicdn.com/img/ibank/O1CN01Iybsz92G3H6R7lphg_!!2213920228959-0-cib.jpg',
+    isBest: false,
+    verified: true,
+    productUrlCN: 'https://cnfans.com/product/?platform=ALI_1688&id=671733657941&ref=115813',
+    productUrlKako: 'https://ikako.vip/qh4ec'
+  },
+{
+    id: 66,
+    name: 'Random Pants',
+    price: '11.07 PLN',
+    category: 'Pants',
+    image: 'https://cbu01.alicdn.com/img/ibank/O1CN01B61tmO1Qrn29Mq3m7_!!2216969382030-0-cib.jpg',
+    isBest: false,
+    verified: true,
+    productUrlCN: 'https://cnfans.com/product/?platform=ALI_1688&id=855873546186&ref=115813',
+    productUrlKako: 'https://ikako.vip/dh9ph'
   }
 ];
