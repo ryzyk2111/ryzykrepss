@@ -784,5 +784,38 @@ export const products = [
     verified: true,
     productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7317814897&ref=115813',
     productUrlKako: 'https://ikako.vip/sktmy'
+  },
+{
+    id: 71,
+    name: 'Stussy Jacket',
+    price: '132.82 PLN',
+    category: 'Jackets',
+    image: 'https://si.geilicdn.com/pcitem1798464021-43de0000019276a4c7170a239846-unadjust_1074_1074.png',
+    isBest: false,
+    verified: true,
+    productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7541485158&ref=115813',
+    productUrlKako: 'https://ikako.vip/vxwn9'
+  },
+{
+    id: 72,
+    name: 'Yeezy Gap Balenciaga "Budget"',
+    price: '63.35 PLN',
+    category: 'Hoodies',
+    image: 'https://i.imgur.com/PY5lvhM.png',
+    isBest: false,
+    verified: true,
+    productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7539577247&ref=115813',
+    productUrlKako: 'https://ikako.vip/v656b'
+  },
+{
+    id: 73,
+    name: 'Gallery Dept Hoodie',
+    price: '88.36 PLN',
+    category: 'Hoodies',
+    image: 'https://si.geilicdn.com/open1762039621-252808396-724900000194979c7c240aa0834c_1000_1000.jpg',
+    isBest: false,
+    verified: true,
+    productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7541435516&ref=115813',
+    productUrlKako: 'https://ikako.vip/8gemv'
   }
 ];
