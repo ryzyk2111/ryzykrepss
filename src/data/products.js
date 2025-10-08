@@ -740,5 +740,49 @@ export const products = [
     verified: true,
     productUrlCN: 'https://cnfans.com/product/?platform=ALI_1688&id=855873546186&ref=115813',
     productUrlKako: 'https://ikako.vip/dh9ph'
+  },
+{
+    id: 67,
+    name: 'Rick Owens Jeans',
+    price: '94.49 PLN',
+    category: 'Pants',
+    image: 'https://i.imgur.com/D3lIRu7.png',
+    isBest: false,
+    verified: true,
+    productUrlCN: 'https://cnfans.com/product/?platform=ALI_1688&id=749001758814&ref=115813',
+    productUrlKako: 'https://ikako.vip/nv24wv'
+  },
+{
+    id: 68,
+    name: 'Gallery Dept Pants',
+    price: '105.05 PLN',
+    category: 'Pants',
+    image: 'https://i.imgur.com/xblc4Rl.png',
+    isBest: false,
+    verified: true,
+    productUrlCN: 'https://cnfans.com/product/?platform=TAOBAO&id=756275697322&ref=115813',
+    productUrlKako: 'https://ikako.vip/fevq7'
+  },
+{
+    id: 69,
+    name: 'Chrome Hearts Glasses',
+    price: '7.51 PLN',
+    category: 'Others',
+    image: 'https://i.imgur.com/obmVlXT.png',
+    isBest: false,
+    verified: true,
+    productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7314997533&ref=115813',
+    productUrlKako: 'https://ikako.vip/cgu7k5'
+  },
+{
+    id: 70,
+    name: 'Syna Zipper',
+    price: '126.7 PLN',
+    category: 'Hoodies',
+    image: 'https://si.geilicdn.com/wdseller1274221412-0b6b00000193a5434d770a2301af_1284_1284.jpg',
+    isBest: false,
+    verified: true,
+    productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7317814897&ref=115813',
+    productUrlKako: 'https://ikako.vip/sktmy'
   }
 ];
