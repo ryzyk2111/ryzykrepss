@@ -655,10 +655,10 @@ export const products = [
   },
 {
     id: 59,
-    name: 'Ami Shorts',
+    name: 'Denim Tears Shorts',
     price: '54.47 PLN',
     category: 'Shorts',
-    image: 'https://si.geilicdn.com/open1802122381-1234478995-41730000019530cbd21c0a23b491_1080_1080.jpg',
+    image: 'https://si.geilicdn.com/pcitem1922279877-6f5500000196582ee12f0a239846-unadjust_800_800.png',
     isBest: false,
     verified: true,
     productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7407292294&ref=115813',
@@ -666,13 +666,13 @@ export const products = [
   },
 {
     id: 60,
-    name: 'Denim Tears Shorts',
-    price: '54.47 PLN',
+    name: 'Palm Angels Shorts',
+    price: '55.03 PLN',
     category: 'Shorts',
-    image: 'https://si.geilicdn.com/pcitem1922279877-6f5500000196582ee12f0a239846-unadjust_800_800.png.w=400&h=400',
+    image: 'https://si.geilicdn.com/open1851482041-1234478995-59660000018f4d8f6bf90a8115b5_1080_1080.jpg',
     isBest: false,
     verified: true,
-    productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7401140756&ref=115813',
-    productUrlKako: 'https://ikako.vip/vp2d38'
+    productUrlCN: 'https://cnfans.com/product/?platform=WEIDIAN&id=7238366164&ref=115813',
+    productUrlKako: 'https://ikako.vip/5takv'
   }
 ];
