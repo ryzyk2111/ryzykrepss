@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const CombinedNotification = ({ isVisible, onClose }) => {
+const CombinedNotification = ({ isVisible, onClose, t }) => {
   return (
     <AnimatePresence>
       {isVisible && (
@@ -36,12 +36,12 @@ const CombinedNotification = ({ isVisible, onClose }) => {
 
               {/* Title */}
               <h2 className="text-neon-blue text-2xl font-bold mb-6 pr-8 text-center">
-                Ekskluzywne Oferty
+                {t.exclusiveOffers}
               </h2>
 
               {/* Main Offer Text */}
               <p className="text-white text-lg mb-6 text-center">
-                Zarejestruj się, aby uzyskać $450 w kuponach oraz 15% zniżki.
+                {t.signUpOffer}
               </p>
 
               {/* Limited Offer Tag */}
@@ -50,13 +50,13 @@ const CombinedNotification = ({ isVisible, onClose }) => {
                   <span className="text-dark-bg text-sm font-bold">!</span>
                 </div>
                 <span className="text-white font-bold text-lg">
-                  LIMITOWANA OFERTA!
+                  {t.limitedOffer}
                 </span>
               </div>
 
               {/* Discount Highlight */}
               <div className="text-neon-blue text-4xl font-bold mb-8 text-center">
-                $15 OFF!
+                {t.discount15Off}
               </div>
 
               {/* Two Buttons */}
@@ -68,7 +68,7 @@ const CombinedNotification = ({ isVisible, onClose }) => {
                   onClick={() => window.open('https://cnfans.com/register?ref=115813', '_blank')}
                   className="bg-neon-blue text-dark-bg py-4 rounded-lg font-bold text-lg flex items-center justify-center hover:bg-cyan-400 transition-colors"
                 >
-                  Zarejestruj się w CNFans
+                  {t.registerCNFans}
                   <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
@@ -81,7 +81,7 @@ const CombinedNotification = ({ isVisible, onClose }) => {
                   onClick={() => window.open('https://ikako.vip/r/ryzykreps', '_blank')}
                   className="border-2 border-neon-blue text-neon-blue py-4 rounded-lg font-bold text-lg flex items-center justify-center hover:bg-neon-blue hover:text-dark-bg transition-colors"
                 >
-                  Zarejestruj się w KakoBuy
+                  {t.registerKakoBuy}
                   <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>

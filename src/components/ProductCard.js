@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import ProductModal from './ProductModal';
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product, t }) => {
   const [showModal, setShowModal] = useState(false);
   return (
     <motion.div
@@ -24,7 +24,7 @@ const ProductCard = ({ product }) => {
         
         {product.isBest && (
           <div className="absolute top-2 right-2 bg-yellow-400 text-dark-bg px-2 py-1 rounded-full text-xs font-bold flex items-center">
-            ⭐ BEST
+            ⭐ {t.best}
           </div>
         )}
       </div>
@@ -48,7 +48,7 @@ const ProductCard = ({ product }) => {
         onClick={() => setShowModal(true)}
         className="w-full bg-neon-blue text-dark-bg py-2 rounded-lg font-medium hover:bg-cyan-400 transition-colors"
       >
-        • Zobacz produkt
+        {t.viewProduct}
       </motion.button>
 
       {/* Product Modal */}
@@ -56,6 +56,7 @@ const ProductCard = ({ product }) => {
         isVisible={showModal}
         onClose={() => setShowModal(false)}
         product={product}
+        t={t}
       />
     </motion.div>
   );

@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const ProductModal = ({ isVisible, onClose, product }) => {
+const ProductModal = ({ isVisible, onClose, product, t }) => {
   if (!product) return null;
 
   return (
@@ -42,7 +42,7 @@ const ProductModal = ({ isVisible, onClose, product }) => {
                 <p className="text-neon-blue font-bold text-2xl">{product.price}</p>
                 {product.isBest && (
                   <div className="inline-block bg-yellow-400 text-dark-bg px-2 py-1 rounded-full text-xs font-bold mt-2">
-                    ⭐ BEST
+                    ⭐ {t.best}
                   </div>
                 )}
               </div>
@@ -56,7 +56,7 @@ const ProductModal = ({ isVisible, onClose, product }) => {
                   onClick={() => window.open(product.productUrlCN, '_blank')}
                   className="w-full bg-neon-blue text-dark-bg py-3 rounded-lg font-bold text-lg flex items-center justify-center hover:bg-cyan-400 transition-colors"
                 >
-                  Kup w CNFans
+                  {t.buyOnCNFans}
                   <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
@@ -69,7 +69,7 @@ const ProductModal = ({ isVisible, onClose, product }) => {
                   onClick={() => window.open(product.productUrlKako, '_blank')}
                   className="w-full border-2 border-neon-blue text-neon-blue py-3 rounded-lg font-bold text-lg flex items-center justify-center hover:bg-neon-blue hover:text-dark-bg transition-colors"
                 >
-                  Kup w KakoBuy
+                  {t.buyOnKakoBuy}
                   <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>

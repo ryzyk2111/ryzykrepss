@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const SearchBar = ({ searchTerm, onSearchChange, sortBy, onSortChange }) => {
+const SearchBar = ({ searchTerm, onSearchChange, sortBy, onSortChange, t }) => {
   return (
     <div className="flex items-center space-x-4 mb-6">
       <motion.div
@@ -13,7 +13,7 @@ const SearchBar = ({ searchTerm, onSearchChange, sortBy, onSortChange }) => {
           type="text"
           value={searchTerm}
           onChange={(e) => onSearchChange(e.target.value)}
-          placeholder="Wyszukaj po nazwie..."
+          placeholder={t.searchPlaceholder}
           className="w-full bg-dark-card border border-neon-blue rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-neon-blue focus:border-transparent transition-all duration-300"
         />
         <svg 
@@ -37,9 +37,9 @@ const SearchBar = ({ searchTerm, onSearchChange, sortBy, onSortChange }) => {
           onChange={(e) => onSortChange(e.target.value)}
           className="bg-dark-card border border-neon-blue rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-neon-blue focus:border-transparent transition-all duration-300 appearance-none pr-8"
         >
-          <option value="">Sort by price</option>
-          <option value="cheapest">From cheapest</option>
-          <option value="expensive">From most expensive</option>
+          <option value="">{t.sortBy}</option>
+          <option value="cheapest">{t.cheapest}</option>
+          <option value="expensive">{t.expensive}</option>
         </select>
         <svg 
           className="absolute right-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400 pointer-events-none" 

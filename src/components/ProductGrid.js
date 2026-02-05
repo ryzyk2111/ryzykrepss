@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import ProductCard from './ProductCard';
 
-const ProductGrid = ({ products }) => {
+const ProductGrid = ({ products, t }) => {
   if (products.length === 0) {
     return (
       <motion.div
@@ -10,7 +10,7 @@ const ProductGrid = ({ products }) => {
         animate={{ opacity: 1 }}
         className="text-center py-12"
       >
-        <p className="text-gray-400 text-lg">No products found matching your criteria.</p>
+        <p className="text-gray-400 text-lg">{t.noProducts}</p>
       </motion.div>
     );
   }
@@ -28,7 +28,7 @@ const ProductGrid = ({ products }) => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: index * 0.1 }}
         >
-          <ProductCard product={product} />
+          <ProductCard product={product} t={t} />
         </motion.div>
       ))}
     </motion.div>

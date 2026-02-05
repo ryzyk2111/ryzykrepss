@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const CategoryFilter = ({ categories, activeCategory, onCategoryChange }) => {
+const CategoryFilter = ({ categories, activeCategory, onCategoryChange, t }) => {
   return (
     <div className="flex space-x-2 overflow-x-auto pb-2">
       {categories.map((category, index) => (
@@ -21,7 +21,7 @@ const CategoryFilter = ({ categories, activeCategory, onCategoryChange }) => {
             }
           `}
         >
-          {category}
+          {category === 'Wszystkie' ? t.all : category}
         </motion.button>
       ))}
     </div>
